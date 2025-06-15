@@ -8,6 +8,7 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "@sparticuz/chromium": "^137.0.1",
     "@vercel/node": "^3.0.21",
     "fabric": "^6.0.0-beta20",
     "puppeteer": "^21.6.1",
