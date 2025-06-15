@@ -1,0 +1,19 @@
+{
+  "name": "canvas-puppeteer-api",
+  "version": "1.0.0",
+  "description": "CR API with Puppeteer on VC",
+  "main": "api/render.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.21",
+    "fabric": "^6.0.0-beta20",
+    "puppeteer": "^21.6.1",
+    "puppeteer-core": "^21.6.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
